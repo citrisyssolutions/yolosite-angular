@@ -1,0 +1,18 @@
+.egg
+{
+    position: absolute;
+    top: 20px;
+    margin-top: 160px;
+    margin-left: 400px;
+    border-color: rgb(21, 20, 20);
+    border: 2px solid brown;
+}
+.product
+{
+    position: absolute;
+    top: 20px;
+    margin-top: 160px;
+    margin-left: 750px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(62, 60, 60);
+}
