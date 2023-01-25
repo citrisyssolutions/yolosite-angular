@@ -1,0 +1,25 @@
+.navbar-expand-lg .navbar-nav .nav-link{
+    text-align: center; 
+    padding: 0.5px;
+    margin-right: 100px
+    
+}
+.container-fluid
+{
+    margin: 0 auto;
+    width: 80%
+}
+.nav-link active{
+    text-align: center; 
+
+}
+.logo
+{
+    position:relative;
+    margin-top: -125px;
+    margin-bottom: -230px;
+    padding: 100px ;}
+
+.navbar-toggler-icon{
+    text-align: left;
+}
