@@ -1,7 +1,11 @@
 .navbar-expand-lg .navbar-nav .nav-link{
     text-align: center; 
-    padding: 0.5px;
-    margin-right: 100px
+    color:var(--primary-color);
+    
+    margin: -80px;
+    margin-left: 180px;
+    top: -0px;
+    
     
 }
 .container-fluid
@@ -11,15 +15,29 @@
 }
 .nav-link active{
     text-align: center; 
-
+    margin: top 50px;
 }
-.logo
+/* .logo
 {
     position:relative;
     margin-top: -125px;
     margin-bottom: -230px;
-    padding: 100px ;}
+    padding: 100px ;} */
+
+/* .navbar-toggler-icon{
+    text-align: left;
+} */
+
 
 .navbar-toggler-icon{
-    text-align: left;
+    margin-right: 0%;
+    padding-top: 10pt;
+}
+.subscribe{
+    margin-left: 850pt;
+    position: fixed;
+    top: 20px;
+}
+.logo{
+    margin-right: 200pt;
 }

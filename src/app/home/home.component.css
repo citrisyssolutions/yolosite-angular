@@ -1,0 +1,223 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.bg-container1
+{
+    background-color: #fff;
+    width: 1513.2px;
+    height: 366px;
+    background-size: 200% 200%;
+    background: rgb(23,162,188);
+background: linear-gradient(71deg, rgba(23,162,188,1) 4%, rgba(111,199,214,1) 13%, rgba(179,240,249,1) 26%, rgba(161,226,232,1) 41%, rgba(213,250,249,1) 50%, rgba(200,176,238,1) 65%, rgba(209,154,232,1) 74%, rgba(209,139,228,1) 84%, rgba(166,221,226,1) 93%, rgba(122,212,223,1) 100%);animation:bgAnimatedGradient 150s infinite linear;
+    }
+.yolo
+{ 
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: -10px;
+    padding: 180px;
+    position: absolute;
+    left:20.5%;
+    color:#5D2F1A;
+    animation: slideShow 5s infinite;
+    animation-delay: 2.5s;
+    
+    }
+    .yolo1
+{ 
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: -10px;
+    margin-right: 50px;
+    padding: 180px;
+    
+    position: absolute;
+    right: 28.5%;
+    color:#5D2F1A;
+    animation: slideShow 5s infinite;
+    /* Delay the second heading by half the duration of the animation */
+    } 
+      @keyframes slideShow {
+        0% {
+          opacity: 0;
+        }
+        50% {
+          opacity: 1;
+        }
+        100% {
+          opacity: 0;
+        }
+      }
+@keyframes bgAnimatedGradient
+{
+        0%
+        {
+            background-position: 0 0;
+        }
+       
+        100%
+        {
+            background-position: 100% 0;
+        }
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes fadeOutAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.bodyp
+{
+    
+    margin-bottom: auto;
+    margin-left: 61%;
+   padding: -30px;
+   -webkit-mask-image: url("/assets/home/LogoShape.svg" );
+    mask-image: url("/assets/home/LogoShape.svg");
+}
+
+.col1
+{
+  
+    height: 230px;
+    background-color: #E2C8C0;
+    margin: 10px;
+    width: 6.45cm;
+    
+}
+
+.text1
+{
+    text-align: center;
+    bottom: 0;
+    position: absolute;
+    width: 210px;
+    padding: 80px 40px;
+    font-family: itc avant garde gothic;
+    font-size: 20px;
+    color: #0C4426;
+}
+.col2
+{
+    transition: transform .7s ease-in-out;
+    height: 230px;
+    background-color:#FFD45A;
+    margin: 10px;
+    width: 6.45cm;
+    right: 150px;
+}
+.text2
+{
+    text-align: center;
+    bottom: 0;
+    position: absolute;
+    width: 210px;
+    padding: 80px 30px;
+    font-family: itc avant garde gothic;
+    font-size: 20px;
+    color: #0C4426;
+
+}
+.col3
+{
+    transition: transform .7s ease-in-out;
+    height: 230px;
+    background-color:#C8E0FE;
+    margin: 10px;
+    width: 6.45cm;
+    
+}
+.text3
+{
+    text-align: center;
+    bottom: 0;
+    position: absolute;
+    width: 210px;
+    padding: 80px 30px;
+    font-family: itc avant garde gothic;
+    font-size: 20px;
+    color: #0C4426;
+
+}
+.col4
+{
+    
+    height: 230px;
+    background-color: #E8EDEA;
+    margin: 10px;
+    width: 6.45cm;
+    
+    
+    
+}
+.text4
+{
+    text-align: center;
+    bottom: 0;
+    position: absolute;
+    width: 210px;
+    padding: 80px 30px;
+    
+    font-family: itc avant garde gothic;
+    font-size: 20px;
+    color: #0C4426;
+    
+}
+.container{
+    
+    padding: 40px;
+    column-count: 4;
+    column-width: 17cm;
+    -ms-grid-column-align: center;
+    margin-bottom: 10px;
+    margin-top: -5px;
+    
+}
+.row
+{
+    margin-left: 100px;
+    padding-left: -100px;
+    column-gap: -80px -80px;
+}
+.img1
+{
+background:linear-gradient(#E2C8C0) ;
+border-radius: 2px;
+padding:30px 60px;
+}
+.img2
+{
+background:linear-gradient(#E2C8C0) ;
+border-radius: 2px;
+padding:30px 60px;
+}
+.img3
+{
+background:linear-gradient(#E2C8C0) ;
+border-radius: 2px;
+padding:30px 60px;
+}
+.img4
+{
+
+border-radius: 2px;
+padding:30px 60px;
+}
+.mask {
+    -webkit-mask-image: url(/assets/home/LogoShape.svg);
+    mask-image: url(/assets/home/bread.jpg);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+  }
+  
