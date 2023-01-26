@@ -1,19 +1,119 @@
-
-.container {
-    padding-top: 200px;
-    left: 310px;
-    width: 220px;
-
-    
+input {
+    border: 1px solid black;
+    border-radius: 0;
+    height: 37px;
+    width: 225px;
+   
+    position: absolute;
+    top: 310px;
+    right: 620px;
   }
-.btn1{
-    margin-top: 20px;
-    border-radius: 35px;
-}
-.row{
-    margin-left: -480px;
-    margin-right: 200px;
+  .lastname{
+    border: 1px solid rgba(0, 0, 0, 0.808);
+    border-radius: 0;
+    height: 37px;
+    width: 225px;
+   
+    position: absolute;
+    top: 310px;
+    right: 380px;
+  }
+  .Email-text{
+    border: 1px solid rgba(0, 0, 0, 0.808);
+    border-radius: 0;
+    height: 37px;
+    width: 467px;
+   
+    position: absolute;
+    top: 410px;
+    right: 380px;
+  }
+  .Message{
+    border: 1px solid rgba(0, 0, 0, 0.808);
+    border-radius: 0;
+    height: 97px;
+    width: 467px;
+   
+    position: absolute;
+    top: 500px;
+    right: 380px;
+  }
+  .con{
+    position: fixed;
+    top: 190px;
+    left: 270px;
+    font-size:65px;
+    font-weight: 900;
+  }
+  .icon-image{
+    position: fixed;
+    top: 320px;
+    height: 30px;
+    left: 270px;
+    
 
-}
+  }
+  .icon-image1{
+    position: fixed;
+    top: 450px;
+    height: 30px;
+    left: 270px;
+    
 
+  }
+  .icon-image2{
+    position: fixed;
+    top: 550px;
+    height: 30px;
+    left: 270px;
+    
 
+  }
+  .address{
+    position:absolute;
+    text-align: justify;
+    top:300px;
+    left: 320px;
+  }
+  .phone{
+    position:fixed;
+    top:455px;
+    left: 320px;
+  }
+  .email{
+    position:fixed;
+    top:555px;
+    left: 320px;
+  }
+  .f1{
+    position:fixed;
+    top:280px;
+    left: 683px;
+    font-size: 15px;
+  }
+  .l1{
+    position:fixed;
+    top:280px;
+    right: 530px;
+    font-size: 15px;
+  }
+  .E1{
+    position:fixed;
+    top:380px;
+    left: 683px;
+    font-size: 15px;
+  }
+  .M1{
+    position:fixed;
+    top:475px;
+    left: 683px;
+    font-size: 15px;
+  }
+  .btn1{
+    position: absolute;
+    top:620px;
+    right: 380px;
+    border-radius: 0px;
+    width: 120px;
+    height: 40px;
+  }
