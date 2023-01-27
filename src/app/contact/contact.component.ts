@@ -22,9 +22,9 @@ export class ContactComponent  {
   }
   
 
-  myimage:string="assets/pro-image/l3.png"
-  myimage1:string="assets/pro-image/p3.png"
-  myimage2:string="assets/pro-image/m3.png"
+  myimage:string="assets/contact/l3.png"
+  myimage1:string="assets/contact/p3.png"
+  myimage2:string="assets/contact/m3.png"
 
   address = {
     office:'Yolo Life',
