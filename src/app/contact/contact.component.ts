@@ -1,5 +1,4 @@
-import { Component, OnInit } from '@angular/core';
-import { FormBuilder, FormGroup } from '@angular/forms';
+import { Component } from '@angular/core';
 
 
 @Component({
@@ -8,7 +7,6 @@ import { FormBuilder, FormGroup } from '@angular/forms';
   styleUrls: ['./contact.component.css']
 })
 export class ContactComponent  {
- 
   inputValue: string;
   inputValue1: string;
   inputValue2: string;
@@ -22,9 +20,9 @@ export class ContactComponent  {
   }
   
 
-  myimage:string="assets/pro-image/l3.png"
-  myimage1:string="assets/pro-image/p3.png"
-  myimage2:string="assets/pro-image/m3.png"
+  myimage:string="assets/contact/l3.png"
+  myimage1:string="assets/contact/p3.png"
+  myimage2:string="assets/contact/m3.png"
 
   address = {
     office:'Yolo Life',
@@ -39,3 +37,4 @@ export class ContactComponent  {
   buttonAction() {
   }
 }
+

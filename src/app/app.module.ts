@@ -29,7 +29,8 @@ import { ContactComponent } from './contact/contact.component';
 
 import { ProductComponent } from './product/product.component';
 import { ProductListComponent } from './product-list/product-list.component';
-import { FooterComponent } from './footer/footer.component';
+import 'jquery';
+import 'popper.js';
 
 @NgModule({
   declarations: [
@@ -40,8 +41,8 @@ import { FooterComponent } from './footer/footer.component';
     ContactComponent,
     ProductComponent,
     ContactComponent,
-    ProductListComponent,
-    FooterComponent
+    ProductListComponent
+
   ],
   imports: [
     BrowserModule,
