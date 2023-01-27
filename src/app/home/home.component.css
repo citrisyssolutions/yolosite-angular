@@ -10,9 +10,28 @@
 .ima{
     width: 1000px;
     margin-left: 180px;
-    margin-top: 15px;
+   margin-top: 15px;
+    
     
 }
+/* .btn .btn-warning{
+    margin-top: 20px;
+} */
+button{
+    background-color: #FFD45A;
+    margin-left: 130px;
+    
+}
+.text{
+    margin-left: 600px;
+    padding-top: 100px;
+    padding-left: 40pt;
+    position: absolute;
+}
+.text p{
+    padding-left: 150px;
+}
+
 
 /* .bg-container1
 {
