@@ -11,8 +11,6 @@ export class ProductComponent {
   goToPage() {
     this.router.navigate(['/product-list']);
   }
-  cartPage(){
-    this.router.navigate(['/cart']);
-  }
+ 
 
 }
