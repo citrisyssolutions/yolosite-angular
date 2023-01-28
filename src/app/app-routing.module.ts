@@ -8,7 +8,7 @@ import { ProductListComponent } from './product-list/product-list.component';
 import{FooterComponent} from './footer/footer.component';
 
 import { CartComponent } from './cart/cart.component';
-import { FooterComponent } from './footer/footer.component';
+
 
 
 const routes: Routes = [
