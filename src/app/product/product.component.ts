@@ -7,7 +7,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./product.component.css']
 })
 export class ProductComponent {
-  constructor (private router : Router) {}
+  constructor(private router: Router) {}
 
   goToPage() {
     this.router.navigate(['/product-list']);
