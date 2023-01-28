@@ -1,24 +1,108 @@
-<h6 class="con">Contact us</h6>
-<input [(ngModel)]="inputValue">
-<input [(ngModel)]="inputValue1" class="lastname">
-<input [(ngModel)]="inputValue2" class="Email-text">
-<input [(ngModel)]="inputValue3" class="Message">
-<img [src]="myimage" class="icon-image">
-<section class="address">
-<div>{{address.office}}</div>
-<div>{{address.location}}</div>
-<div>{{address.street}}</div>
-<div>{{address.city}}</div>
-<div>{{address.address}}</div>
-<div class="phone">{{address.phoneNo}}</div>
-<div class="email">{{address.Email}}</div>
-<h1 class="f1">First Name</h1>
-<h1 class="l1">Last Name</h1>
-<h1 class="E1">Email*</h1>
-<h1 class="M1">Message</h1>
-</section>
-<button class="btn1" mat-button (click)="buttonAction()"  [style.color]="'white'" [style.background-color]="'blue'">Sent</button>
-<img [src]="myimage1" class="icon-image1">
-<img [src]="myimage2" class="icon-image2">
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.108915649707!2d80.24737501482258!3d13.028735590818453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5267b16510159d%3A0x5d6c857dcf60908d!2z4K6F4K6u4K-N4K6u4K6-IOCuqOCuvuCuqSDgrprgr4Lgrqrgr43grqrgrrDgr43grq7grr7grrDgr43grpXgr43grpXgr4bgrp_gr40g4K6a4K-G4K6p4K-N4K6p4K-I!5e0!3m2!1sta!2sin!4v1674794632616!5m2!1sta!2sin" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<section class="mb-4"[ngClass]="{'left-section': 'margin-left'}">
+
+    
+    <h2 class="h1-responsive  text-md-left my-4" [ngClass]="{'big-font': 'font-size'}">Contact us</h2>
+    
+    <div class="row">
+
+        <!--Grid column-->
+        <div class="col-md-9 mb-md-0 mb-5">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0" style="position:absolute;  width:250px; left:780px;">
+                            <label for="name" class="" >FirstName</label>
+                            <input type="text" id="name" name="name" class="form-control" >
+
+                           
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0" style="position:absolute;  width:250px; left:1050px;">
+                            <label for="name" class="">LastName</label>
+                            <input type="text" id="lname" name="lname" class="form-control" style="width: 250px">
+                            
+                        </div>
+                    </div>
+                    <!--Grid column-->
+                   
+
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row" style="position:absolute;  width:545px; left:780px; top:330px;" >
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <label for="subject" class="">Email</label>
+                            <input type="text" id="Email" name="Email" class="form-control">
+                            
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row" style="position:absolute;  width:520px; left:780px; top:410px; "  >
+
+                    <!--Grid column-->
+                    <div class="col-md-12">
+
+                        <div class="md-form">
+                            <label for="message">Your message</label>
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea" style="position:absolute; height: 150px;"></textarea>
+                            
+                        </div>
+
+                    </div>
+                </div>
+                <!--Grid row-->
+
+            </form>
+
+            <div class="text-center text-md-left" style="position:absolute;  width:40px; left:980px; top:610px; "  >
+                <a class="btn"[ngStyle]="{'background-color': 'brown', 'width':'150px', 'height':'50px','font-size':'20px','color': 'white', 'border-radius':'250px'}" onclick="document.getElementById('contact-form').submit();">Send</a>
+            </div>
+            <div class="status"></div>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-3 text-md-left" [ngClass]="{'right-section': 'margin-right'}">
+            <ul class="list-unstyled mb-0">
+                <li><i class="fas fa-map-marker-alt fa-2x " [ngStyle]="{'color': 'blue', 'position': 'absolute', 'top': '260px', 'left': '150px','line-height': '1', 'letter-spacing': '1'}"></i>
+                    <p  [ngStyle]="{'line-height': '2.5', 'letter-spacing': '6'}">YOLO Life 
+                    (A div. of Thanga Mayil Agro Pvt. Ltd.), 
+                    Regd. Office: 8 Second Avenue, 
+                    Sundar Nagar, Ekkattuthangal, 
+                    Chennai 600032</p>
+                </li>
+
+                <li><i class="fas fa-phone mt-4 fa-2x" [ngStyle]="{'color': 'blue', 'position': 'absolute', 'top': '410px', 'left': '150px'}" ></i> <p [ngStyle]="{ 'position': 'absolute', 'top': '450px', 'left': '200px'}">+91.72009 67561</p> 
+                  
+                </li>
+
+                <li><i class="fas fa-envelope mt-4 fa-2x"  [ngStyle]="{'color': 'blue', 'position': 'absolute', 'top': '520px', 'left': '150px'}"></i>
+                    <p [ngStyle]="{ 'position': 'absolute', 'top': '550px', 'left': '200px'}">customercare@yololife.in</p>
+                </li>
+            </ul>
+        </div>
+        <!--Grid column-->
+
+    </div>
+
+</section>
+
+<section class="mapadj"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.2975841913767!2d80.19445922397588!3d13.016711961484125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a526739ff41edb1%3A0x15cfd49e7c755825!2s8%2C%20Second%20Ave%2C%20Sundar%20Nagar%2C%20Ekkatuthangal%2C%20Chennai%2C%20Tamil%20Nadu%20600032!5e0!3m2!1sta!2sin!4v1674902222550!5m2!1sta!2sin" width="500" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></section>
+
+
+
+
