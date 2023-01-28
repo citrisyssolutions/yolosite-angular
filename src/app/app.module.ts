@@ -31,6 +31,7 @@ import { ProductComponent } from './product/product.component';
 import { ProductListComponent } from './product-list/product-list.component';
 import { FooterComponent } from './footer/footer.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -41,7 +42,8 @@ import { FooterComponent } from './footer/footer.component';
     ProductComponent,
     ContactComponent,
     ProductListComponent,
-    FooterComponent
+    FooterComponent,
+  
   ],
   imports: [
     BrowserModule,

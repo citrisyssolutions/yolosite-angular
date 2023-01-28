@@ -7,11 +7,12 @@ import { ProductComponent } from './product/product.component';
 import { ProductListComponent } from './product-list/product-list.component';
 import { FooterComponent } from './footer/footer.component';
 const routes: Routes = [
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
   { path: 'about', component: AboutComponent },
   { path: 'contact', component:  ContactComponent},
   { path: 'product', component: ProductComponent},
-  {path:'product_list',component:ProductListComponent},
+  {path:'product-list',component:ProductListComponent},
   {path:'footer',component:FooterComponent}
 ];
 
@@ -23,4 +24,6 @@ const routes: Routes = [
 
 
 })
+
 export class AppRoutingModule { }
+
