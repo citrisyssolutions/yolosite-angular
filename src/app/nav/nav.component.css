@@ -16,6 +16,7 @@
 .nav-link active{
     text-align: center; 
     margin: top 50px;
+    
 }
 /* .logo
 {
@@ -33,11 +34,7 @@
     margin-right: 0%;
     padding-top: 10pt;
 }
-.subscribe{
-    margin-left: 850pt;
-    position: fixed;
-    top: 20px;
-}
+
 .logo{
     margin-right: 200pt;
 }
