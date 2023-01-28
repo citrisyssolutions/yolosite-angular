@@ -30,6 +30,9 @@ import { ContactComponent } from './contact/contact.component';
 import { ProductComponent } from './product/product.component';
 import { ProductListComponent } from './product-list/product-list.component';
 
+import { FooterComponent } from './footer/footer.component';
+ 
+import { HostDirective} from './product/host.directive';
 
 @NgModule({
   declarations: [
@@ -40,7 +43,13 @@ import { ProductListComponent } from './product-list/product-list.component';
     ContactComponent,
     ProductComponent,
     ContactComponent,
-    ProductListComponent
+
+
+
+    ProductListComponent,
+    FooterComponent,
+
+    HostDirective,
 
   ],
   imports: [
