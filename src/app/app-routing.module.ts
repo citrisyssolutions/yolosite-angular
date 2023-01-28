@@ -5,6 +5,7 @@ import { ContactComponent } from './contact/contact.component';
 import { HomeComponent } from './home/home.component';
 import { ProductComponent } from './product/product.component';
 import { ProductListComponent } from './product-list/product-list.component';
+import { CartComponent } from './cart/cart.component';
 import { FooterComponent } from './footer/footer.component';
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -12,7 +13,8 @@ const routes: Routes = [
   { path: 'about', component: AboutComponent },
   { path: 'contact', component:  ContactComponent},
   { path: 'product', component: ProductComponent},
-  {path:'product_list',component:ProductListComponent},
+  {path:'product-list',component:ProductListComponent},
+  {path:'cart',component:CartComponent},
   {path:'footer',component:FooterComponent}
 ];
 
