@@ -5,8 +5,11 @@ import { ContactComponent } from './contact/contact.component';
 import { HomeComponent } from './home/home.component';
 import { ProductComponent } from './product/product.component';
 import { ProductListComponent } from './product-list/product-list.component';
+
 import { CartComponent } from './cart/cart.component';
 import { FooterComponent } from './footer/footer.component';
+
+
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
@@ -16,6 +19,7 @@ const routes: Routes = [
   {path:'product-list',component:ProductListComponent},
   {path:'cart',component:CartComponent},
   {path:'footer',component:FooterComponent}
+
 ];
 
 @NgModule({
@@ -26,6 +30,4 @@ const routes: Routes = [
 
 
 })
-
 export class AppRoutingModule { }
-

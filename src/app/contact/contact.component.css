@@ -1,0 +1,15 @@
+.big-font {
+  font-size: 50px;
+}
+.left-section {
+  margin-left: 120px;
+}
+.right-section {
+  margin-left: 90px;
+  margin-top: 10px;
+}
+.mapadj{
+  position:absolute;
+  margin-top: 200px;
+  margin-left: 380px;
+}

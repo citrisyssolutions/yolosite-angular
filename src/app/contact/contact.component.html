@@ -1,0 +1,108 @@
+
+<section class="mb-4"[ngClass]="{'left-section': 'margin-left'}">
+
+    
+    <h2 class="h1-responsive  text-md-left my-4" [ngClass]="{'big-font': 'font-size'}">Contact us</h2>
+    
+    <div class="row">
+
+        <!--Grid column-->
+        <div class="col-md-9 mb-md-0 mb-5">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0" style="position:absolute;  width:250px; left:780px;">
+                            <label for="name" class="" >FirstName</label>
+                            <input type="text" id="name" name="name" class="form-control" >
+
+                           
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0" style="position:absolute;  width:250px; left:1050px;">
+                            <label for="name" class="">LastName</label>
+                            <input type="text" id="lname" name="lname" class="form-control" style="width: 250px">
+                            
+                        </div>
+                    </div>
+                    <!--Grid column-->
+                   
+
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row" style="position:absolute;  width:545px; left:780px; top:330px;" >
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <label for="subject" class="">Email</label>
+                            <input type="text" id="Email" name="Email" class="form-control">
+                            
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row" style="position:absolute;  width:520px; left:780px; top:410px; "  >
+
+                    <!--Grid column-->
+                    <div class="col-md-12">
+
+                        <div class="md-form">
+                            <label for="message">Your message</label>
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea" style="position:absolute; height: 150px;"></textarea>
+                            
+                        </div>
+
+                    </div>
+                </div>
+                <!--Grid row-->
+
+            </form>
+
+            <div class="text-center text-md-left" style="position:absolute;  width:40px; left:980px; top:610px; "  >
+                <a class="btn"[ngStyle]="{'background-color': 'brown', 'width':'150px', 'height':'50px','font-size':'20px','color': 'white', 'border-radius':'250px'}" onclick="document.getElementById('contact-form').submit();">Send</a>
+            </div>
+            <div class="status"></div>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-3 text-md-left" [ngClass]="{'right-section': 'margin-right'}">
+            <ul class="list-unstyled mb-0">
+                <li><i class="fas fa-map-marker-alt fa-2x " [ngStyle]="{'color': 'blue', 'position': 'absolute', 'top': '260px', 'left': '150px','line-height': '1', 'letter-spacing': '1'}"></i>
+                    <p  [ngStyle]="{'line-height': '2.5', 'letter-spacing': '6'}">YOLO Life 
+                    (A div. of Thanga Mayil Agro Pvt. Ltd.), 
+                    Regd. Office: 8 Second Avenue, 
+                    Sundar Nagar, Ekkattuthangal, 
+                    Chennai 600032</p>
+                </li>
+
+                <li><i class="fas fa-phone mt-4 fa-2x" [ngStyle]="{'color': 'blue', 'position': 'absolute', 'top': '410px', 'left': '150px'}" ></i> <p [ngStyle]="{ 'position': 'absolute', 'top': '450px', 'left': '200px'}">+91.72009 67561</p> 
+                  
+                </li>
+
+                <li><i class="fas fa-envelope mt-4 fa-2x"  [ngStyle]="{'color': 'blue', 'position': 'absolute', 'top': '520px', 'left': '150px'}"></i>
+                    <p [ngStyle]="{ 'position': 'absolute', 'top': '550px', 'left': '200px'}">customercare@yololife.in</p>
+                </li>
+            </ul>
+        </div>
+        <!--Grid column-->
+
+    </div>
+
+</section>
+
+<section class="mapadj"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.2975841913767!2d80.19445922397588!3d13.016711961484125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a526739ff41edb1%3A0x15cfd49e7c755825!2s8%2C%20Second%20Ave%2C%20Sundar%20Nagar%2C%20Ekkatuthangal%2C%20Chennai%2C%20Tamil%20Nadu%20600032!5e0!3m2!1sta!2sin!4v1674902222550!5m2!1sta!2sin" width="500" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></section>
+
+
+
+
