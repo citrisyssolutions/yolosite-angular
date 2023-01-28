@@ -7,5 +7,5 @@ import { Router } from '@angular/router';
   styleUrls: ['./product-list.component.css']
 })
 export class ProductListComponent {
-  
-}
+ }
+
