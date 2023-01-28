@@ -12,7 +12,7 @@ const routes: Routes = [
   { path: 'about', component: AboutComponent },
   { path: 'contact', component:  ContactComponent},
   { path: 'product', component: ProductComponent},
-  {path:'product_list',component:ProductListComponent},
+  {path:'product-list',component:ProductListComponent},
   {path:'footer',component:FooterComponent}
 ];
 
@@ -24,4 +24,6 @@ const routes: Routes = [
 
 
 })
+
 export class AppRoutingModule { }
+
