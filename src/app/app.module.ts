@@ -47,9 +47,10 @@ import { HostDirective} from './product/host.directive';
 
 
     ProductListComponent,
-    FooterComponen
+    FooterComponent,
 
     HostDirective,
+     FooterComponent,
   ],
   imports: [
     BrowserModule,
